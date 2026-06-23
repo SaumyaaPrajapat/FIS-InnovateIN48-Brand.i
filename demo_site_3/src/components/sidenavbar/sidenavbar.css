@@ -1,0 +1,67 @@
+@import url("https://fonts.cdnfonts.com/css/roobert");
+
+body {
+    font-family: "Roobert";
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidenav {
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidenav li {
+    font-family: "Roobert", sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag {
+    font-family: "Roobert", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px 6px;
+    border-radius: 2%;
+}
+
+.page {
+    background-color: #e6e7e8;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+    font-size: 18px;
+    color: black;
+}

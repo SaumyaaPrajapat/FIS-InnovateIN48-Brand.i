@@ -1,0 +1,109 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.sidenav {
+    width: 300px;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidenav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidenav li {
+    font-family: "Roobert", sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag1 {
+    font-family: "Roobert", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #cd473e;
+    background-color: #4acd3e5f;
+    border: 3px solid #4bcd3e;
+    padding: 5px 20px;
+    border-radius: 2%;
+}
+
+.tag2 {
+    font-family: "Roobert", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    background-color: #d21b1b68;
+    border: 3px solid #d21b1b;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+.tag3 {
+    font-family: "Roobert", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    background-color: #4acd3e5f;
+    border: 3px solid #4bcd3e;
+    padding: 5px 20px;
+    border-radius: 2%;
+}
+
+.tag4 {
+    font-family: "Roobert", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    background-color: #4acd3e5f;
+    border: 3px solid #4bcd3e;
+    padding: 5px 20px;
+    text-align: right;
+    border-radius: 25px;
+    display: block;
+    width: 27%;
+    text-align: right;
+}
+
+.tag5 {
+    font-family: "Roobert", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    background-color: #8d3ee14f;
+    border: 3px solid #8e3ee1;
+    padding: 5px 20px;
+    border-radius: 2%;
+}
+
+.page {
+    background-color: #e6e7e8;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content {
+    font-size: 18px;
+    color: black;
+}

@@ -1,0 +1,15 @@
+.page {
+  background-color: #e6e7e8;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.content {
+  font-size: 18px;
+  color: black;
+}

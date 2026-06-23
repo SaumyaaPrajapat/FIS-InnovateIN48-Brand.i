@@ -1,0 +1,58 @@
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.loading-box {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.loading-gif {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.loading-text p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+    font-weight: bold;
+    font-family: 'Roobert', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: color 0.5s ease-in-out;
+}
+
+.loading-text p.completed {
+    color: green;
+}

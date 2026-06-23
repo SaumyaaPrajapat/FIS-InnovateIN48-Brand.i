@@ -1,0 +1,26 @@
+.piechart {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.piechart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 225px;
+}
+
+.piechart-image {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}

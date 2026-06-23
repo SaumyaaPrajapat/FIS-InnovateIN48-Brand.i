@@ -1,0 +1,84 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-card {
+    background: #eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1001;
+}
+
+.download-button {
+    position: absolute;
+    display: inline-block;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    color: black;
+}
+
+.download-button-container {
+    position: absolute;
+    top: 16px;
+    right: 70px;
+    /* Matches the right position of the download button */
+    cursor: pointer;
+}
+
+.close-button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+}
+
+.close-button:hover {
+    color: black;
+}
+
+/* Custom scrollbar styles */
+.popup-card::-webkit-scrollbar {
+    width: 6px;
+}
+
+.popup-card::-webkit-scrollbar-track {
+    background: #e6e7e8;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.popup-card::-webkit-scrollbar-thumb {
+    background-color: #e6e7e8;
+    border-radius: 10px;
+    border: 2px solid #e6e7e8;
+}

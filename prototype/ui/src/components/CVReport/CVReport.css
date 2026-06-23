@@ -1,0 +1,54 @@
+.cv-report {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cv-report h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cv-report img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cv-report .details {
+    text-align: left;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.cv-report .details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cv-report ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv-report li {
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.demo-text {
+    font-size: 14px;
+}
+
+.demo {
+    text-align: center;
+    font-size: 18px;
+}

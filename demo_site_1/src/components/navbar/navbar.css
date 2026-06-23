@@ -1,0 +1,67 @@
+@import url("https://fonts.cdnfonts.com/css/roobert");
+
+body {
+  font-family: "Roobert", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d1f48;
+  padding: 15px 30px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-links li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-links li::after {
+  content: "▼";
+  font-size: 10px;
+  color: #4bcd3e;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-button {
+  font-family: 'Roobert';
+  background-color: #4bcd3e;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 7px 20px;
+  margin: 0px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 35px;
+}
+
+.search-icon {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
